@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice-Room</title>
+    <script type="module" crossorigin src="./assets/index-DwF8QCak.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-o1fsPZYo.css">
+  </head>
+  <body>
+    <div id="container">
+
+        <div id="room-header">
+
+          <h1 id="room-name"></h1>
+
+          <div id="room-header-controls">
+            <img id="mic-icon" class="control-icon" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20class='feather%20feather-mic-off'%3e%3cline%20x1='1'%20y1='1'%20x2='23'%20y2='23'%3e%3c/line%3e%3cpath%20d='M9%209v3a3%203%200%200%200%205.12%202.12M15%209.34V4a3%203%200%200%200-5.94-.6'%3e%3c/path%3e%3cpath%20d='M17%2016.95A7%207%200%200%201%205%2012v-2m14%200v2a7%207%200%200%201-.11%201.23'%3e%3c/path%3e%3cline%20x1='12'%20y1='19'%20x2='12'%20y2='23'%3e%3c/line%3e%3cline%20x1='8'%20y1='23'%20x2='16'%20y2='23'%3e%3c/line%3e%3c/svg%3e" />
+            <img id="leave-icon" class="control-icon" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20class='feather%20feather-log-out'%3e%3cpath%20d='M9%2021H5a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2h4'%3e%3c/path%3e%3cpolyline%20points='16%2017%2021%2012%2016%207'%3e%3c/polyline%3e%3cline%20x1='21'%20y1='12'%20x2='9'%20y2='12'%3e%3c/line%3e%3c/svg%3e" />
+          </div>
+        </div>
+    
+        <form id="form">
+          <div>
+            <h3>Select An Avatar:</h3>
+          </div>
+          <div id="avatars">
+              <img class="avatar-selection" src="./assets/male-1-5SuuEtTS.png"/>
+              <img class="avatar-selection" src="./assets/male-2-C36zgHxn.png"/>
+              <img class="avatar-selection" src="./assets/male-4-DuvHqGL3.png"/>
+              <img class="avatar-selection" src="./assets/male-5-DLoBRx-x.png"/>
+        
+              <img class="avatar-selection" src="./assets/female-1-eegOLF5e.png"/>
+              <img class="avatar-selection" src="./assets/female-2-BUr8C2x5.png"/>
+              <img class="avatar-selection" src="./assets/female-4-BzaqpDCU.png"/>
+              <img class="avatar-selection" src="./assets/female-5-DYlO2eNG.png"/>
+          </div> 
+
+          <div id="form-fields">
+              <label>Display Name:</label>
+              <input name="displayname" type="text" placeholder="Enter username..." required/>
+              <label>Room Name:</label>
+              <input name="roomname" type="text" placeholder="Enter room name..." required/>
+              <input type="submit" value="Enter Room"/>
+          </div>
+      </form>
+    
+        <div id="members">
+    
+        </div>
+    </div>
+  </body>
+</html>
